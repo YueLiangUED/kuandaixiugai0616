@@ -1,0 +1,165 @@
+@charset "utf-8";
+/*通用设置*/
+body {
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+}
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 27px 84px;
+}
+.logo {
+    padding: 27px 0 32px;
+}
+.wrap {
+    width: 100%;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.wrap .title {
+    height: 65px;
+    line-height: 65px;
+    padding-left: 25px;
+    background-color: #efefef;
+    font-size: 22px;
+    color: #323333;
+}
+.wrap .content {
+    min-height: 430px;
+    border: 1px solid #e7e7e6;
+    border-top: none;
+}
+/*账号成功页面设置*/
+.wrap .content .success-msg {
+    text-align: center;
+}
+.wrap .content p.msg {
+    font-size: 24px;
+    color: #8ec31f;
+    margin-top: 68px;
+}
+.successPic {
+    margin-top: 88px;
+    height: 66px;
+}
+/*表单页设置*/
+.wrap form {
+    padding-left: 142px;
+    padding-top: 30px;
+}
+.form-group {
+    margin-bottom: 22px;
+}
+.form-group label {
+    display: inline-block;
+    width: 134px;
+    color: #747272;
+}
+.form-group input {
+    width: 316px;
+    height: 56px;
+    line-height: 56px;
+    padding-left: 26px;
+    border: 1px solid #e0e0df;
+    font-family: "Microsoft YaHei";
+}
+
+/*验证码样式设置*/
+.form-group.nums .btn {
+    display: inline-block;
+    width: 111px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #e0e0df;
+    border-left: none;
+    background-color: #1f89cb;
+}
+.form-group.nums .btn.active {
+    background-color: #bbbbbb;
+}
+.form-group.nums input {
+    width: 205px;
+    border-right: none;
+}
+
+/*错误提示*/
+.tip-wr {
+    margin-left: 13px;
+    padding-left: 37px;
+    line-height: 24px;
+    font-size: 18px;
+    color: #e72f26;
+    background: url("../images/tip_wr.png") no-repeat left;
+}
+.tip-right {
+    display: inline-block;
+    margin-left: 13px;
+    width: 28px;
+    height: 24px;
+    background: url('../images/tip_right.png') no-repeat center;
+}
+/*提交按钮*/
+.form-group .submit {
+    width: 232px;
+    height: 58px;
+    margin-left: 134px;
+    padding-left: 0;
+    background-color: #1f89cb;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+/*重置密码首页*/
+.form-group.account input {
+    width: 451px;
+    border-radius: 3px;
+}
+.form-group.renums input {
+    width: 247px;
+    border-radius: 3px 0 0 3px;
+}
+.renums-box {
+    width: 203px;
+    line-height: 56px;
+    height: 56px;
+    border: 1px solid #e0e0df;
+    border-left: none;
+    border-radius: 0 3px 3px 0;
+    text-align: center;
+    cursor: pointer;
+}
+.renumsPic {
+    width: 50%;
+    font-size: 22px;
+    color: #e7312c;
+}
+.reNums {
+    width: 50%;
+    font-size: 18px;
+    color: #e7312c;
+}
+.wx-tip {
+    margin: 0 142px;
+    padding-bottom: 45px;
+}
+.wx-tip .tip-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #666;
+}
+.wx-tip p {
+    margin-top: 15px;
+    line-height: 1.5em;
+}
+.wx-tip .text-title {
+    font-weight: 700;
+    color: #666;
+}
+.font-red {
+    color: #f00;
+}

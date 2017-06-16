@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheets/base.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="javascript/jquery.js"></script>
+    <script>
+        var winWidth=$(window).width();
+        $('html').css({
+            fontSize:winWidth/750*100+'px'
+        });
+    </script>
+    <title>重置密码</title>
+</head>
+<body>
+    <div class="main">
+        <form id="form-reset">
+            <div class="group">
+                <p class="name item"><span>宽带账号</span><input type="text" name="" placeholder="请输入宽带账号"/></p>
+                <div class="nums item">
+                    <div class="fl">
+                        <input id="numsValue" type="text" name="" placeholder="请输入验证码" />
+                    </div>
+                    <div class="fl">
+                        <span id="numsPic" class="">FDWs</span>
+                    </div>
+                </div>
+            </div>
+            <div class="subm next">
+                <input id="next" type="button" value="下一步">
+            </div>
+        </form>
+        <!-- 如需修改提示文字，请直接在相应的标签下修改文字即可 -->
+        <div class="wx-tip">
+            <h5 class="tip-title">温馨提示：</h5>
+            <p class="one-gr">您可以通过如下方式进行密码重置：</p>
+            <p class="tip-text"><span class="text-title">12位独立宽带账号的客户：</span>您须携带身份证前往营业厅办理密码重置，业务代办情况下需同时提供办理人和代办人的<span class="font-red">有效身份证件</span>。</p>
+            <p class="tip-text"><span class="text-title">手机号码作为宽带账号的客户：</span>您可通过绑定手机号码编辑短信<span class="font-red">CZKDMM#新密码</span>发送至<span class="font-red">10086</span>进行密码重置；也可以携带身份证件前往营业厅办理密码重置，业务代办情况下需同时提供办理人和代办人的<span class="font-red">有效身份证件</span>。</p>
+        </div>
+    </div>
+    <script src="javascript/main.js"></script>
+</body>
+</html>
