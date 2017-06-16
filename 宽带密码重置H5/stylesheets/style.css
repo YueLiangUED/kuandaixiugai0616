@@ -161,6 +161,9 @@ body {
 #next {
     -webkit-appearance: none;
 }
+input[type="text"] {
+    -webkit-appearance: none;
+}
 .wx-tip {
     width: 6.3rem;
     margin: 0 auto;
