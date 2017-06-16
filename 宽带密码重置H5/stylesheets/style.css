@@ -90,7 +90,8 @@ body {
 .subm.reset {
     margin-top: 2.5rem;
 }
-.subm input {
+.subm input,.next-btn {
+    display: inline-block;
     width: 6.3rem;
     height: 0.84rem;
     background: #01a1ff;
